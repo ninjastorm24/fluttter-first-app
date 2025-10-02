@@ -12,7 +12,6 @@ class GradientContainer extends StatelessWidget {
 
   void rollDice() {
     activeImage = 'assets/images/dice-4.png';
-    print("Rolling dice...");
   }
 
   @override

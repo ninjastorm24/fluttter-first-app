@@ -1,13 +1,13 @@
-# Ignore auto-generated Android and iOS code
-android/** linguist-vendored
-ios/** linguist-vendored
+# Treat Dart files as the main language
+*.dart linguist-detectable=true
 
-# Ignore web build artifacts
-web/** linguist-vendored
-
-# Ignore build outputs
-build/** linguist-vendored
-
-# Ignore miscellaneous vendor code
-**/*.g.dart linguist-generated
-**/*.freezed.dart linguist-generated
+# Ignore platform/auto-generated code
+*.cpp linguist-vendored
+*.c linguist-vendored
+*.h linguist-vendored
+*.m linguist-vendored
+*.swift linguist-vendored
+*.cmake linguist-vendored
+*.gradle linguist-vendored
+*.xml linguist-vendored
+*.json linguist-vendored
