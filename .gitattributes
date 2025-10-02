@@ -1,0 +1,13 @@
+# Ignore auto-generated Android and iOS code
+android/** linguist-vendored
+ios/** linguist-vendored
+
+# Ignore web build artifacts
+web/** linguist-vendored
+
+# Ignore build outputs
+build/** linguist-vendored
+
+# Ignore miscellaneous vendor code
+**/*.g.dart linguist-generated
+**/*.freezed.dart linguist-generated
