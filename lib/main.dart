@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:first_app/gradient_container.dart';
 
+
+// checking
 void main() {
   runApp(
     MaterialApp(
